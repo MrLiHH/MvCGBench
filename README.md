@@ -20,8 +20,6 @@ We distribute **features and annotations**, without original movies, extracted i
 - **Public experience set:** 10 selected movies, comprising 9 test movies and 1 training movie, with **1,109 queries**. Feature extraction and validation are in progress; download links will be added here when ready.
 - **Remaining 90 movies:** apply through the [MvCGBench research access form](https://docs.qq.com/form/page/DUEdpTENpQkdBZ0xa). Applications are reviewed manually. Approved applicants receive a cloud-drive download link by email, valid for **30 days**.
 
-Experience-set movie IDs: `001, 003, 005, 006, 007, 097, 114, 138, 144, 161`. Movie `007` retains its training label; the others retain their test labels. This experience set is not the original test split and does not change the paper's split.
-
 ## Features and evaluation
 
 The paper uses PySceneDetect (threshold 30), visual sampling at **1 fps**, and **Qwen2.5-VL-7B** as the default backbone. The feature release is being prepared using projected visual tokens; exact extraction settings and provenance will accompany the downloads.
